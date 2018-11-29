@@ -20,9 +20,14 @@ namespace HTF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private String identifier = "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx";
+        List<String> challengeCodes;
         public MainWindow()
         {
             InitializeComponent();
+            GetManager getManager = new GetManager();
+          getManager.Get("www.htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
+          //  Console.WriteLine(response);
         }
     }
 }
