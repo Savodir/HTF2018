@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace HTF
@@ -11,16 +12,25 @@ namespace HTF
     {
         List<int> primesList = new List<int>();
         int min, max;
+        List<Value> values = new List<Value>();
         public Challenge04()
         {
             get();
-            int max = Int32.Parse(inputValues.ElementAt(0).data);
+            int max = Int32.Parse(inputValues.ElementAt(1).data);
+            int min = Int32.Parse(inputValues.ElementAt(0).data);
+            Trace.WriteLine(min);
+            Trace.WriteLine(max);
+
+
+            this.max = max;
+            this.min = min;
             crack();
+            Thread.Sleep(11000);
+            post();
         }
 
         public override void crack()
         {
-            List<Value> values = new List<Value>();
                 List<int> primes = new List<int>();
                 long sum = 0;
                 long n = max;
@@ -58,7 +68,7 @@ namespace HTF
         }
         public override void post()
         {
-            throw new NotImplementedException();
+            postManager.postChallenge("7a34919d6dd4c2d9c3f05c6957946b82", MainWindow.identifier, root.id, values);
         }
     }
 }

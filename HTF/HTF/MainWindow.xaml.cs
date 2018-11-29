@@ -23,7 +23,7 @@ namespace HTF
     public partial class MainWindow : Window
     {
         
-        private String identifier = "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx";
+        public static String identifier = "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx";
         List<String> challengeCodes;
         bool flag;
 
