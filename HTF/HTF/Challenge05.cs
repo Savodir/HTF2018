@@ -36,11 +36,13 @@ namespace HTF
 
             for (int i = 2; i < inputValues.Count; i++)
             {
-                if (inputValues.ElementAt(i).name.ToLower().Contains(destinationPlanet))
+                if (inputValues.ElementAt(i).name.ToLower().Contains(destinationPlanet) && destinationPlanet != "earth")
                 {
                     selectedLength = Double.Parse(inputValues.ElementAt(i).data);
                     Trace.WriteLine(inputValues.ElementAt(i).name);
                 }
+                else selectedLength = Double.Parse(inputValues.ElementAt(2).data);
+
             }
             Trace.WriteLine("Selected Length" + selectedLength);
             Double earthlength = length / earthyear;

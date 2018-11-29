@@ -40,25 +40,26 @@ namespace HTF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int sleepTime = 11000;
-            cha01.Text = "Completed";
-            cha01.Foreground = Brushes.Green;
-            Challenge02 challenge02 = new Challenge02();
-            Thread.Sleep(sleepTime);
-            challenge02.get();
-            challenge02.crack();
-            Thread.Sleep(sleepTime);
-            challenge02.post();
-            cha02.Text = "Completed";
-            cha02.Foreground = Brushes.Green;
-            Challenge03 challenge03 = new Challenge03();
-            Thread.Sleep(sleepTime);
-            challenge03.get();
-            challenge03.crack();
-            Thread.Sleep(sleepTime);
-            challenge03.post();
-            cha03.Text = "Completed";
-            cha03.Foreground = Brushes.Green;
+            /* int sleepTime = 11000;
+             cha01.Text = "Completed";
+             cha01.Foreground = Brushes.Green;
+             Challenge02 challenge02 = new Challenge02();
+             Thread.Sleep(sleepTime);
+             challenge02.get();
+             challenge02.crack();
+             Thread.Sleep(sleepTime);
+             challenge02.post();
+             cha02.Text = "Completed";
+             cha02.Foreground = Brushes.Green;
+             Challenge03 challenge03 = new Challenge03();
+             Thread.Sleep(sleepTime);
+             challenge03.get();
+             challenge03.crack();
+             Thread.Sleep(sleepTime);
+             challenge03.post();
+             cha03.Text = "Completed";
+             cha03.Foreground = Brushes.Green; */
+            Challenge05 challenge05 = new Challenge05();
         }
     }
 }
