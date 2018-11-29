@@ -49,6 +49,12 @@ namespace HTF
             challenge02.crack();
             Thread.Sleep(sleepTime);
             challenge02.post();
+            Challenge03 challenge03 = new Challenge03();
+            Thread.Sleep(sleepTime);
+            challenge03.get();
+            challenge03.crack();
+            Thread.Sleep(sleepTime);
+            challenge03.post();
         }
     }
 }

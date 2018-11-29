@@ -47,7 +47,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="570,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="570,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="570,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <Button Content="Start Hacking Button" HorizontalAlignment="Left" Margin="315,365,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Start Hacking Button" HorizontalAlignment="Left" Margin="315,365,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
         <Label Content="This is a hacking application" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" FontSize="20"/>
 
     </Grid>
