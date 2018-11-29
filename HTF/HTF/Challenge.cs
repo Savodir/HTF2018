@@ -12,7 +12,7 @@ namespace HTF
         public Question question { get; set; }
         public List<InputValue> inputValues { get; set; }
 
-        abstract public RootObject get();
+        abstract public void get();
         abstract public void post();
         abstract public void crack();
     }
