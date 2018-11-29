@@ -27,7 +27,7 @@ namespace HTF
 
         public override void post()
         {
-            
+            postManager.postChallenge();
         }
     }
 }

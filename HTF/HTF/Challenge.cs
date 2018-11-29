@@ -9,7 +9,7 @@ namespace HTF
     abstract class Challenge
     {
         public GetManager getManager = new GetManager();
-
+        public PostManager postManager = new PostManager("http://htf2018.azurewebsites.net/");
         public RootObject root { get; set; }
         public Question question { get; set; }
         public List<InputValue> inputValues { get; set; }
