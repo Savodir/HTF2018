@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using Newtonsoft.Json;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,7 +17,7 @@ namespace HTF
     {
         IRestResponse response;
         public GetManager() { }
-        public void get(String url, String challengecode, String identifier)
+        public RootObject get(String challengecode, String identifier = "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx", String url = "http://htf2018.azurewebsites.net")
         {
             RestClient client = new RestClient(url);
 
@@ -31,6 +32,8 @@ namespace HTF
             var content = response.Content; // raw content as string            Trace.WriteLine(queryResult.Content);
             Trace.WriteLine(content);
             Trace.WriteLine(url + "/challenges/" + challengecode);
+            RootObject root = (RootObject)JsonConvert.DeserializeObject(content);
+            return root;
         }
     }
 

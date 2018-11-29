@@ -21,12 +21,13 @@ namespace HTF
 
         public override void get()
         {
-            //inputvalues = 
+            root = getManager.get("593bc0a2e0dfdc53b239bc2a96ab0fd5");
+            inputValues = root.question.inputValues;
         }
 
         public override void post()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
