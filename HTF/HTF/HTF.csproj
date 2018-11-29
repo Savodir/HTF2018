@@ -63,6 +63,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Challenge04.cs" />
+    <Compile Include="Challenge05.cs" />
+    <Compile Include="Challenge06.cs" />
     <Compile Include="RequestObject.cs" />
     <Compile Include="Values.cs" />
     <Page Include="MainWindow.xaml">
