@@ -29,6 +29,8 @@ namespace HTF
           getManager.get("http://htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
 
             //  Console.WriteLine(response);
+
+
         }
     }
 }
