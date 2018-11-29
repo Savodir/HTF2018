@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,8 +27,10 @@ namespace HTF
         {
             InitializeComponent();
             GetManager getManager = new GetManager();
-          getManager.get("http://htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
-
+            PostManager postManager = new PostManager("http://htf2018.azurewebsites.net");
+       //   getManager.get("http://htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
+       //     Thread.Sleep(11000); //ms
+            postManager.postChallenge("593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier, "sum", "183", "18274857-ff06-4535-8352-fa9d67e122e0");
             //  Console.WriteLine(response);
 
 

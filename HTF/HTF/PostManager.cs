@@ -1,5 +1,7 @@
-﻿using System;
+﻿using RestSharp;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -9,28 +11,31 @@ namespace HTF
 {
     class PostManager
     {
-        private static readonly HttpClient client = new HttpClient();
-        public PostManager()
+        String url;
+        public PostManager(String url)
         {
+            this.url = url + "/challenges/";
+        }
+        public void postChallenge(String challengecode, String identifier, String postname, String postanswer, String postchallengeid)
+        {
+            var client = new RestClient(url);
+            var request = new RestRequest(url + challengecode, Method.POST);
+            request.AddHeader("htf-identification", identifier);
+            var yourobject = new RequestObject
+            {
+                challengeID = postchallengeid,
+                values = new List<Values>
+                {
+                    new Values { name = postname, data = postanswer },
+                },
+            };
+            var json = request.JsonSerializer.Serialize(yourobject);
+            Trace.WriteLine(json);
+            request.AddParameter("application/json; charset=utf-8", json, ParameterType.RequestBody);
+            IRestResponse response = client.Execute(request);
+            Trace.WriteLine(response.Content);
 
         }
-        public async void post()
-        {
-            var values = new Dictionary<string, string>
-{
-   { "thing1", "hello" },
-   { "thing2", "world" }
-};
-
-            var content = new FormUrlEncodedContent(values);
-
-            var response = await client.PostAsync("http://www.example.com/recepticle.aspx", content);
-
-            var responseString = await response.Content.ReadAsStringAsync();
-
-        }
-
-
     }
 }
 
