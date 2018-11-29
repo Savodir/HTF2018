@@ -34,13 +34,21 @@ namespace HTF
             PostManager postManager = new PostManager("http://htf2018.azurewebsites.net");
             //   getManager.get("http://htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
             //     Thread.Sleep(11000); //ms
-            List<Value> value = new List<Value>();
-            value.Add(new Value("sum", "188"));
-            value.Add(new Value("sun", "5000"));
-            Challenge04 challenge04 = new Challenge04();
+
          //   postManager.postChallenge("593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier, "18274857-ff06-4535-8352-fa9d67e122e0", value);
             //  Console.WriteLine(response);
           //  Challenge04 challenge04 = new Challenge04(500, 20000);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int sleepTime = 11000;
+            Challenge02 challenge02 = new Challenge02();
+            Thread.Sleep(sleepTime);
+            challenge02.get();
+            challenge02.crack();
+            Thread.Sleep(sleepTime);
+            challenge02.post();
         }
     }
 }

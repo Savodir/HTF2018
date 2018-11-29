@@ -28,13 +28,9 @@ namespace HTF
         public override void post()
         {
             List<Value> values = new List<Value>();
-            Value value = new Value()
-            {
-                name = "sum",
-                data = total.ToString()
-            };
+            Value value = new Value("sum", total.ToString());
             values.Add(value);
-            postManager.postChallenge("593bc0a2e0dfdc53b239bc2a96ab0fd5", "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx", value);
+            postManager.postChallenge("593bc0a2e0dfdc53b239bc2a96ab0fd5", "MjAzMzQ5ZTAtYzY2MC00ZjI3LThmYzItMDY1MjY3MTE0ODYx", root.id, values);
         }
     }
 }

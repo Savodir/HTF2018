@@ -13,7 +13,17 @@ namespace HTF
         {
             foreach (InputValue item in inputValues)
             {
-
+                foreach (char c in item.data)
+                {
+                    if (isLetter(c))
+                    {
+                        switch (c)
+                        {
+                            case 'a':
+                                break;
+                        }
+                    }
+                }
             }
         }
 
