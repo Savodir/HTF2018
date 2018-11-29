@@ -68,13 +68,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Values.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenge.cs" />
     <Compile Include="Challenge02.cs" />
+    <Compile Include="Challenge03.cs" />
     <Compile Include="Deserializer.cs" />
     <Compile Include="GetManager.cs" />
     <Compile Include="MainWindow.xaml.cs">

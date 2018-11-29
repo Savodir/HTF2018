@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace HTF
 {
-    class Challenge02 : Challenge
+    class Challenge03 : Challenge
     {
-        public int total { get; set; }
         public override void crack()
         {
-            total = 0;
             foreach (InputValue item in inputValues)
             {
-                int num = Int32.Parse(item.data);
-                total += num;
+
             }
         }
 
         public override void get()
         {
-            root = getManager.get("593bc0a2e0dfdc53b239bc2a96ab0fd5");
-            inputValues = root.question.inputValues;
+            throw new NotImplementedException();
         }
 
         public override void post()
         {
-            
+            throw new NotImplementedException();
+        }
+
+        public bool isLetter(char c)
+        {
+            return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
         }
     }
 }
