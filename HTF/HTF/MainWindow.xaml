@@ -27,27 +27,27 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="415,253,0,0" TextWrapping="Wrap" Text="Challenge 18" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="415,281,0,0" TextWrapping="Wrap" Text="Challenge 19" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="415,309,0,0" TextWrapping="Wrap" Text="Challenge 20" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
-        <Button Content="Start Hacking Button" HorizontalAlignment="Left" Margin="315,365,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="cha01" HorizontalAlignment="Left" Height="23" Margin="198,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha02" HorizontalAlignment="Left" Height="23" Margin="198,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha03" HorizontalAlignment="Left" Height="23" Margin="198,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha04" HorizontalAlignment="Left" Height="23" Margin="198,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha05" HorizontalAlignment="Left" Height="23" Margin="198,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha06" HorizontalAlignment="Left" Height="23" Margin="198,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha07" HorizontalAlignment="Left" Height="23" Margin="198,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha08" HorizontalAlignment="Left" Height="23" Margin="198,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha09" HorizontalAlignment="Left" Height="23" Margin="198,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha10" HorizontalAlignment="Left" Height="23" Margin="198,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha11" HorizontalAlignment="Left" Height="23" Margin="570,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha12" HorizontalAlignment="Left" Height="23" Margin="570,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha13" HorizontalAlignment="Left" Height="23" Margin="570,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha14" HorizontalAlignment="Left" Height="23" Margin="570,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha15" HorizontalAlignment="Left" Height="23" Margin="570,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha16" HorizontalAlignment="Left" Height="23" Margin="570,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha17" HorizontalAlignment="Left" Height="23" Margin="570,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha18" HorizontalAlignment="Left" Height="23" Margin="570,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha19" HorizontalAlignment="Left" Height="23" Margin="570,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox Name="cha20" HorizontalAlignment="Left" Height="23" Margin="570,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <Button Content="Start Hacking Button" HorizontalAlignment="Left" Margin="315,365,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
         <Label Content="This is a hacking application" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" FontSize="20"/>
 
     </Grid>

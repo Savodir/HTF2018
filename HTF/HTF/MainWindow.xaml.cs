@@ -30,10 +30,6 @@ namespace HTF
         public MainWindow()
         {
             InitializeComponent();
-            GetManager getManager = new GetManager();
-            PostManager postManager = new PostManager("http://htf2018.azurewebsites.net");
-          //   Challenge05 challenge05 = new Challenge05();
-            Challenge06 challenge06 = new Challenge06();
             //   getManager.get("http://htf2018.azurewebsites.net", "593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier);
             //     Thread.Sleep(11000); //ms
 
@@ -45,13 +41,24 @@ namespace HTF
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int sleepTime = 11000;
-            /*   Challenge02 challenge02 = new Challenge02();
-               Thread.Sleep(sleepTime);
-               challenge02.get();
-               challenge02.crack();
-               Thread.Sleep(sleepTime);
-               challenge02.post();
-               Challenge04 challenge04 = new Challenge04();*/
+            cha01.Text = "Completed";
+            cha01.Foreground = Brushes.Green;
+            Challenge02 challenge02 = new Challenge02();
+            Thread.Sleep(sleepTime);
+            challenge02.get();
+            challenge02.crack();
+            Thread.Sleep(sleepTime);
+            challenge02.post();
+            cha02.Text = "Completed";
+            cha02.Foreground = Brushes.Green;
+            Challenge03 challenge03 = new Challenge03();
+            Thread.Sleep(sleepTime);
+            challenge03.get();
+            challenge03.crack();
+            Thread.Sleep(sleepTime);
+            challenge03.post();
+            cha03.Text = "Completed";
+            cha03.Foreground = Brushes.Green;
         }
     }
 }
