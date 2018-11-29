@@ -11,34 +11,32 @@ namespace HTF
 {
     class PostManager
     {
-        class PostManager
+        String url;
+        public PostManager(String url)
         {
-            String url;
-            public PostManager(String url)
+            this.url = url + "/challenges/";
+        }
+        public void postChallenge(String challengecode, String identifier, String postname, String postanswer, String postchallengeid)
+        {
+            var client = new RestClient(url);
+            var request = new RestRequest(url + challengecode, Method.POST);
+            request.AddHeader("htf-identification", identifier);
+            var yourobject = new RequestObject
             {
-                this.url = url + "/challenges/";
-            }
-            public void postChallenge(String challengecode, String identifier, String postname, String postanswer, String postchallengeid)
-            {
-                var client = new RestClient(url);
-                var request = new RestRequest(url + challengecode, Method.POST);
-                request.AddHeader("htf-identification", identifier);
-                var yourobject = new RequestObject
-                {
-                    challengeID = postchallengeid,
-                    values = new List<Values>
+                challengeID = postchallengeid,
+                values = new List<Values>
                 {
                     new Values { name = postname, data = postanswer },
                 },
-                };
-                var json = request.JsonSerializer.Serialize(yourobject);
-                Trace.WriteLine(json);
-                request.AddParameter("application/json; charset=utf-8", json, ParameterType.RequestBody);
-                IRestResponse response = client.Execute(request);
-                Trace.WriteLine(response.Content);
+            };
+            var json = request.JsonSerializer.Serialize(yourobject);
+            Trace.WriteLine(json);
+            request.AddParameter("application/json; charset=utf-8", json, ParameterType.RequestBody);
+            IRestResponse response = client.Execute(request);
+            Trace.WriteLine(response.Content);
 
-            }
         }
     }
 }
+
 
