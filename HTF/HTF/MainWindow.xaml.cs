@@ -60,6 +60,22 @@ namespace HTF
             challenge03.post();
             cha03.Text = "Completed";
             cha03.Foreground = Brushes.Green;
+            Challenge08 challenge08 = new Challenge08();
+            Thread.Sleep(sleepTime);
+            challenge08.get();
+            challenge08.crack();
+            Thread.Sleep(sleepTime);
+            challenge08.post();
+            cha08.Text = "Completed";
+            cha08.Foreground = Brushes.Green;
+            Challenge09 challenge09 = new Challenge09();
+            Thread.Sleep(sleepTime);
+            challenge09.get();
+            challenge09.crack();
+            Thread.Sleep(sleepTime);
+            challenge09.post();
+            cha09.Text = "R I P";
+            cha09.Foreground = Brushes.Black;
         }
     }
 }
