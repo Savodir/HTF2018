@@ -11,15 +11,16 @@ namespace HTF
     {
         List<int> primesList = new List<int>();
         int min, max;
-        public Challenge04(int min, int max)
+        public Challenge04()
         {
-            this.max = max;
-            this.min = min;
+            get();
+            int max = Int32.Parse(inputValues.ElementAt(0).data);
             crack();
         }
 
         public override void crack()
         {
+            List<Value> values = new List<Value>();
                 List<int> primes = new List<int>();
                 long sum = 0;
                 long n = max;
@@ -44,11 +45,16 @@ namespace HTF
                         }
                     }
                 }
+                for(int i = 0; i < primesList.Count; i++)
+            {
+                values.Add(new Value("prime", primesList.ElementAt(i).ToString()));
+            }
         }
 
         public override void get()
         {
-            throw new NotImplementedException();
+            root = getManager.get("7a34919d6dd4c2d9c3f05c6957946b82");
+            inputValues = root.question.inputValues;
         }
         public override void post()
         {

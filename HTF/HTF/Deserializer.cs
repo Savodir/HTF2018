@@ -32,6 +32,11 @@ namespace HTF
     {
         public string name { get; set; }
         public string data { get; set; }
+        public Value(String name, String data)
+        {
+            this.name = name;
+            this.data = data;
+        }
     }
 
     public class Answer
