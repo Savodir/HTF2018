@@ -14,6 +14,6 @@ namespace HTF
             }
 
             public string challengeID { get; set; }
-        public List<Values> values { get; set; }
+        public List<Value> values { get; set; }
     }
     }

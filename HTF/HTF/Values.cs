@@ -10,8 +10,10 @@ namespace HTF
     {
         public String name { get; set; }
         public String data { get; set; }
-        public Values()
+        public Values(String name, String data)
         {
+            this.name = name;
+            this.data = data;
         }
     }
 }
