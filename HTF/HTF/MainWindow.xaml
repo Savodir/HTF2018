@@ -7,6 +7,48 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,57,0,0" TextWrapping="Wrap" Text="Challenge 01" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,85,0,0" TextWrapping="Wrap" Text="Challenge 02" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,113,0,0" TextWrapping="Wrap" Text="Challenge 03" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,141,0,0" TextWrapping="Wrap" Text="Challenge 04" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,169,0,0" TextWrapping="Wrap" Text="Challenge 05" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,197,0,0" TextWrapping="Wrap" Text="Challenge 06" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,225,0,0" TextWrapping="Wrap" Text="Challenge 07" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,253,0,0" TextWrapping="Wrap" Text="Challenge 08" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,281,0,0" TextWrapping="Wrap" Text="Challenge 09" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,309,0,0" TextWrapping="Wrap" Text="Challenge 10" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,57,0,0" TextWrapping="Wrap" Text="Challenge 11" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,85,0,0" TextWrapping="Wrap" Text="Challenge 12" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,113,0,0" TextWrapping="Wrap" Text="Challenge 13" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,141,0,0" TextWrapping="Wrap" Text="Challenge 14" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,169,0,0" TextWrapping="Wrap" Text="Challenge 15" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,197,0,0" TextWrapping="Wrap" Text="Challenge 16" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,225,0,0" TextWrapping="Wrap" Text="Challenge 17" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,253,0,0" TextWrapping="Wrap" Text="Challenge 18" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,281,0,0" TextWrapping="Wrap" Text="Challenge 19" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="415,309,0,0" TextWrapping="Wrap" Text="Challenge 20" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="198,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,57,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,85,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,113,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,141,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,169,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,197,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,225,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,253,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,281,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="570,309,0,0" TextWrapping="Wrap" Text="Uncompleted" VerticalAlignment="Top" Width="120" Foreground="Red"/>
+        <Button Content="Start Hacking Button" HorizontalAlignment="Left" Margin="315,365,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="This is a hacking application" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+
     </Grid>
 </Window>
