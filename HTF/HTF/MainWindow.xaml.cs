@@ -36,7 +36,7 @@ namespace HTF
        //     Thread.Sleep(11000); //ms
             postManager.postChallenge("593bc0a2e0dfdc53b239bc2a96ab0fd5", identifier, "sum", "183", "18274857-ff06-4535-8352-fa9d67e122e0");
             //  Console.WriteLine(response);
-            Challenge03 challenge03 = new Challenge03(500, 20000);
+            Challenge04 challenge04 = new Challenge04(500, 20000);
             List<int> primes = challenge03.getPrimesList();
         }
     }
