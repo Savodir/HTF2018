@@ -27,8 +27,9 @@ namespace HTF
             request.AddHeader("htf-identification", identifier);
             //request.RequestFormat = RestSharp.DataFormat.Json;
 
-            var queryResult = client.Execute(request);
-            Trace.WriteLine(queryResult.Content);
+            IRestResponse response = client.Execute(request);
+            var content = response.Content; // raw content as string            Trace.WriteLine(queryResult.Content);
+            Trace.WriteLine(content);
             Trace.WriteLine(url + "/challenges/" + challengecode);
         }
     }
