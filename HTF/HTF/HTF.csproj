@@ -64,6 +64,7 @@
     </ApplicationDefinition>
     <Compile Include="Challenge04.cs" />
     <Compile Include="RequestObject.cs" />
+    <Compile Include="Values.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

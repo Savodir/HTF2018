@@ -11,18 +11,24 @@ namespace HTF
 {
     class PostManager
     {
-            String url;
-            public PostManager(String url)
-            {
-                this.url = url + "/challenges/";
-            }
-            public void postChallenge(String challengecode, String identifier, String postname, String postanswer, String postchallengeid)
+        String url;
+        public PostManager(String url)
+        {
+            this.url = url + "/challenges/";
+        }
+        public void postChallenge(String challengecode, String identifier, String postname, String postanswer, String postchallengeid)
+        {
+            var client = new RestClient(url);
+            var request = new RestRequest(url + challengecode, Method.POST);
+            request.AddHeader("htf-identification", identifier);
+            var yourobject = new RequestObject
             {
                 challengeID = postchallengeid,
                 values = new List<Values>
+
                 {
                     new Values { name = postname, data = postanswer },
-                },
+                }
             };
             var json = request.JsonSerializer.Serialize(yourobject);
             Trace.WriteLine(json);
