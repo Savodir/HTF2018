@@ -75,6 +75,18 @@ namespace HTF
             challenge09.post();
             cha09.Text = "R I P";
             cha09.Foreground = Brushes.Black;
+            Challenge04 challenge04 = new Challenge04();
+            Challenge05 challenge05 = new Challenge05();
+            Challenge06 challenge06 = new Challenge06();
+
+            cha04.Text = "Completed";
+
+            cha05.Text = "Completed";
+            cha06.Foreground = Brushes.Green;
+
+            cha04.Text = "Completed";
+            cha05.Foreground = Brushes.Green;
+            cha06.Foreground = Brushes.Green;
         }
     }
 }
